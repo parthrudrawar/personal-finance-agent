@@ -29,6 +29,6 @@ def categorize_expenses(df):
     return df
 
 
-def sum_expenses_by_category(df):
+def summarize_expenses(df):
     expenses_by_category = df.groupby('Category')['Amount'].sum().reset_index()
     return expenses_by_category

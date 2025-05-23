@@ -19,6 +19,6 @@ def test_check_bill_reminders():
         {"name": "Water", "due_date": "2000-01-01"},
         {"name": "Internet", "due_date": "2100-01-01"}
     ]
-    upcoming = reminder.check_bill_reminders(bills, window_days=36500)  # Very large window
+    upcoming = reminder.check_bill_reminders(bills, window_days=36)  # Very large window
     assert len(upcoming) == 3
 
