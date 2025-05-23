@@ -1,0 +1,8 @@
+streamlit
+pandas
+schedule
+langchain
+openai              
+langflow  
+python-dotenv        
+pytest
